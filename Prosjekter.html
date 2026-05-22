@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prosjekter — Nazar Naumov</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">NN</a>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Hjem</a>
+                <a href="fag.html" class="nav-link">Fag</a>
+                <a href="prosjekter.html" class="nav-link active">Prosjekter</a>
+                <a href="kontakt.html" class="nav-link">Kontakt</a>
+            </div>
+            <button class="menu-btn" aria-label="Meny">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="page-hero">
+        <div class="container">
+            <div class="section-label reveal">Skuleår 2025–2026</div>
+            <h1 class="page-title reveal">Prosjekter</h1>
+            <p class="page-subtitle reveal">Alt eg har laga — organisert etter fag</p>
+        </div>
+    </div>
+
+    <!-- Filter -->
+    <div class="filter-bar">
+        <div class="container">
+            <div class="filter-btns">
+                <button class="filter-btn active" data-filter="all">Alle</button>
+                <button class="filter-btn" data-filter="kp">Konsept &amp; Prog.</button>
+                <button class="filter-btn" data-filter="yf">YFF</button>
+                <button class="filter-btn" data-filter="ph">Prod. &amp; Historief.</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="projects-section section">
+        <div class="container">
+
+            <!-- Konseptutvikling og programmering -->
+            <div class="proj-category" id="kp">
+                <div class="category-header reveal">
+                    <span class="cat-icon">💻</span>
+                    <h2>Konseptutv. og programmering</h2>
+                </div>
+                <div class="proj-grid">
+
+                    <div class="proj-card reveal" data-cat="kp">
+                        <div class="proj-status status-done">Ferdig</div>
+                        <h4>Portefølje-nettside</h4>
+                        <p>Personleg portefølje laga med HTML, CSS og JavaScript. Viser fag, prosjekter og kontaktinfo.</p>
+                        <div class="proj-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <div class="proj-footer">
+                            <span class="proj-date">2025</span>
+                        </div>
+                    </div>
+
+                    <div class="proj-card reveal" data-cat="kp">
+                        <div class="proj-status status-progress">Under arbeid</div>
+                        <h4>Legg til prosjekt her</h4>
+                        <p>Beskriv kva du har laga eller jobba med i dette faget.</p>
+                        <div class="proj-tags">
+                            <span>Tag</span>
+                        </div>
+                        <div class="proj-footer">
+                            <span class="proj-date">2025</span>
+                        </div>
+                    </div>
+
+                    <div class="proj-card proj-add reveal" data-cat="kp">
+                        <span>+ Legg til prosjekt</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Yrkesfaglig fordypning -->
+            <div class="proj-category" id="yf">
+                <div class="category-header reveal">
+                    <span class="cat-icon">🎓</span>
+                    <h2>Yrkesfaglig fordypning</h2>
+                </div>
+                <div class="proj-grid">
+
+                    <div class="proj-card reveal" data-cat="yf">
+                        <div class="proj-status status-progress">Under arbeid</div>
+                        <h4>Legg til prosjekt her</h4>
+                        <p>Beskriv kva du har laga eller jobba med i dette faget.</p>
+                        <div class="proj-tags">
+                            <span>Tag</span>
+                        </div>
+                        <div class="proj-footer">
+                            <span class="proj-date">2025</span>
+                        </div>
+                    </div>
+
+                    <div class="proj-card proj-add reveal" data-cat="yf">
+                        <span>+ Legg til prosjekt</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Produksjon og historiefortelling -->
+            <div class="proj-category" id="ph">
+                <div class="category-header reveal">
+                    <span class="cat-icon">🎬</span>
+                    <h2>Prod. og historiefortelling</h2>
+                </div>
+                <div class="proj-grid">
+
+                    <div class="proj-card reveal" data-cat="ph">
+                        <div class="proj-status status-progress">Under arbeid</div>
+                        <h4>Legg til prosjekt her</h4>
+                        <p>Beskriv kva du har laga eller jobba med i dette faget.</p>
+                        <div class="proj-tags">
+                            <span>Video</span>
+                        </div>
+                        <div class="proj-footer">
+                            <span class="proj-date">2025</span>
+                        </div>
+                    </div>
+
+                    <div class="proj-card proj-add reveal" data-cat="ph">
+                        <span>+ Legg til prosjekt</span>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+           </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <span class="footer-logo">NN</span>
+                <span class="footer-copy">© <span class="year"></span> Nazar Naumov</span>
+                <div class="footer-links">
+                    <a href="index.html">Hjem</a>
+                    <a href="fag.html">Fag</a>
+                    <a href="prosjekter.html">Prosjekter</a>
+                    <a href="kontakt.html">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
