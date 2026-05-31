@@ -10,115 +10,218 @@
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo">NN</a>
-            <div class="nav-menu">
-                <a href="index.html" class="nav-link">Hjem</a>
-                <a href="fag.html" class="nav-link">Fag</a>
-                <a href="prosjekter.html" class="nav-link active">Prosjekter</a>
-                <a href="kontakt.html" class="nav-link">Kontakt</a>
-            </div>
-            <button class="menu-btn" aria-label="Meny">
-                <span></span><span></span><span></span>
-            </button>
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="logo">NN</a>
+        <div class="nav-menu">
+            <a href="index.html" class="nav-link">Hjem</a>
+            <a href="fag.html" class="nav-link">Fag</a>
+            <a href="prosjekter.html" class="nav-link active">Prosjekter</a>
+            <a href="kontakt.html" class="nav-link">Kontakt</a>
         </div>
-    </nav>
+        <button class="menu-btn" aria-label="Meny"><span></span><span></span><span></span></button>
+    </div>
+</nav>
 
-    <div class="page-hero">
-        <div class="container">
-            <div class="section-label reveal">Skuleår 2025–2026</div>
-            <h1 class="page-title reveal">Prosjekter</h1>
-            <p class="page-subtitle reveal">Alt eg har laga</p>
+<div class="page-hero">
+    <div class="container">
+        <div class="section-label reveal">Skuleår 2025–2026</div>
+        <h1 class="page-title reveal">Prosjekter</h1>
+        <p class="page-subtitle reveal">Alt eg har laga</p>
+    </div>
+</div>
+
+<div class="filter-bar">
+    <div class="container">
+        <div class="filter-btns">
+            <button class="filter-btn active" data-filter="all">Alle</button>
+            <button class="filter-btn" data-filter="kp">Konsept &amp; Prog.</button>
+            <button class="filter-btn" data-filter="ph">Prod. &amp; Historief.</button>
+            <button class="filter-btn" data-filter="tf">Teknologiforståelse</button>
         </div>
     </div>
+</div>
 
-    <div class="filter-bar">
-        <div class="container">
-            <div class="filter-btns">
-                <button class="filter-btn active" data-filter="all">Alle</button>
-                <button class="filter-btn" data-filter="kp">Konsept &amp; Prog.</button>
-                <button class="filter-btn" data-filter="ph">Prod. &amp; Historief.</button>
-                <button class="filter-btn" data-filter="tf">Teknologiforståelse</button>
+<section class="projects-section section">
+    <div class="container">
+
+        <!-- Konseptutvikling og programmering -->
+        <div class="proj-category" id="kp">
+            <div class="category-header reveal">
+                <span class="cat-icon">💻</span>
+                <h2>Konseptutv. og programmering</h2>
+            </div>
+            <div class="proj-grid">
+
+                <div class="proj-card reveal" data-cat="kp">
+                    <div class="proj-thumb">
+                        <img src="новелла.png" alt="Visuell novelle">
+                    </div>
+                    <div class="proj-body">
+                        <h4>Visuell novelle</h4>
+                        <p>Tekstbasert interaktivt spel med biletbakgrunn og valgmoglegheiter som styrer historia.</p>
+                        <div class="proj-tags">
+                        </div>
+                        <div class="proj-footer">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal" data-cat="kp">
+                    <div class="proj-thumb">
+                        <img src="чет компоненты.png" alt="Datakomponenter app">
+                    </div>
+                    <div class="proj-body">
+                        <h4>Datakomponenter</h4>
+                        <p>GUI-applikasjon som viser dei viktigaste komponentane i ein datamaskin med bilete og namn.</p>
+                        <div class="proj-tags">
+                        </div>
+                        <div class="proj-footer">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal" data-cat="kp">
+                    <div class="proj-thumb">
+                        <img src="216надо.png" alt="Psyhosisclub nettside">
+                    </div>
+                    <div class="proj-body">
+                        <h4>Psyhosisclub</h4>
+                        <p>Kreativ og eksperimentell nettside med kollasj-estetikk for eit fiktivt musikklabel.</p>
+                        <div class="proj-tags">
+                        </div>
+                        <div class="proj-footer">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Produksjon og historiefortelling -->
+        <div class="proj-category" id="ph">
+            <div class="category-header reveal">
+                <span class="cat-icon">🎬</span>
+                <h2>Prod. og historiefortelling</h2>
+            </div>
+            <div class="proj-grid">
+
+                <div class="proj-card reveal" data-cat="ph">
+                    <div class="proj-thumb">
+                        <img src="лого.png" alt="Lílle logo">
+                    </div>
+                    <div class="proj-body">
+                        <h4>Lílle — Logodesign</h4>
+                        <p>Logotyp for eit konsept med mjukt, minimalistisk uttrykk og illustrativ bjørnekarakter.</p>
+                        <div class="proj-tags">
+                        </div>
+                        <div class="proj-footer">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal" data-cat="ph">
+                    <div class="proj-thumb">
+                        <img src="еккокамера.png" alt="Ekkokammer plakat">
+                    </div>
+                    <div class="proj-body">
+                        <h4>Ekkokammer — Infoplakat</h4>
+                        <p>Informasjonsplakat om filterbobler og ekkokammer i sosiale medium.</p>
+                        <div class="proj-tags">
+                        </div>
+                        <div class="proj-footer">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal" data-cat="ph">
+                    <div class="proj-thumb">
+                        <img src="облога.png" alt="Norwegian Wood bokomslag">
+                    </div>
+                    <div class="proj-body">
+                        <h4>Norwegian Wood — Bokomslag</h4>
+                        <p>Redesign av bokomslaget til Haruki Murakamis roman med trykkferdig layout.</p>
+                        <div class="proj-tags">
+                        </div>
+                        <div class="proj-footer">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Teknologiforståelse -->
+        <div class="proj-category" id="tf">
+            <div class="category-header reveal">
+                <span class="cat-icon">💾</span>
+                <h2>Teknologiforståelse</h2>
+            </div>
+            <div class="proj-grid">
+
+                <div class="proj-card reveal" data-cat="tf">
+                    <div class="proj-thumb">
+                        <img src="пидорсон.png" alt="Heimenettverk Cisco">
+                    </div>
+                    <div class="proj-body">
+                        <h4>Heimenettverk — Cisco Packet Tracer</h4>
+                        <p>Simulert stjernetopologi for familien Pettersen med trådlaus ruter, switch og filserver.</p>
+                        <div class="proj-tags">
+                        </div>
+                        <div class="proj-footer">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal" data-cat="tf">
+                    <div class="proj-thumb">
+                        <img src="шкила сеть.png" alt="Skulenettverk Cisco">
+                    </div>
+                    <div class="proj-body">
+                        <h4>Skulenettverk — Cisco Packet Tracer</h4>
+                        <p>Trådlaust nettverk for klasserom med 17 einingar kopla til ruter og switch.</p>
+                        <div class="proj-tags">
+                        </div>
+                        <div class="proj-footer">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card reveal" data-cat="tf">
+                    <div class="proj-thumb">
+                        <img src="бюджетэксайл.png" alt="PC budsjett Excel">
+                    </div>
+                    <div class="proj-body">
+                        <h4>PC-budsjett — Komponentliste</h4>
+                        <p>Samanstilling av PC-komponentar innanfor budsjett på 40 000 kr med prisoversikt.</p>
+                        <div class="proj-tags">
+                        </div>
+                        <div class="proj-footer">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <span class="footer-logo">NN</span>
+            <span class="footer-copy">© <span class="year"></span> Nazar Naumov</span>
+            <div class="footer-links">
+                <a href="index.html">Hjem</a>
+                <a href="fag.html">Fag</a>
+                <a href="prosjekter.html">Prosjekter</a>
+                <a href="kontakt.html">Kontakt</a>
             </div>
         </div>
     </div>
+</footer>
 
-    <section class="projects-section section">
-        <div class="container">
-
-            <!-- Konseptutvikling og programmering -->
-            <div class="proj-category" id="kp">
-                <div class="category-header reveal">
-                    <span class="cat-icon">💻</span>
-                    <h2>Konseptutv. og programmering</h2>
-                </div>
-                <div class="proj-grid">
-                    <div class="proj-card reveal" data-cat="kp">
-                        <div class="proj-tags">
-                            <span>Tag</span>
-                        </div>
-                        <div class="proj-footer">
-                            <span class="proj-date">2025</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Produksjon og historiefortelling -->
-            <div class="proj-category" id="ph">
-                <div class="category-header reveal">
-                    <span class="cat-icon">🎬</span>
-                    <h2>Prod. og historiefortelling</h2>
-                </div>
-                <div class="proj-grid">
-                    <div class="proj-card reveal" data-cat="ph">
-                        <div class="proj-tags">
-                            <span>Tag</span>
-                        </div>
-                        <div class="proj-footer">
-                            <span class="proj-date">2025</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Teknologiforståelse -->
-            <div class="proj-category" id="tf">
-                <div class="category-header reveal">
-                    <span class="cat-icon">💾</span>
-                    <h2>Teknologiforståelse</h2>
-                </div>
-                <div class="proj-grid">
-                    <div class="proj-card reveal" data-cat="tf">
-                        <div class="proj-tags">
-                            <span>Tag</span>
-                        </div>
-                        <div class="proj-footer">
-                            <span class="proj-date">2025</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-inner">
-                <span class="footer-logo">NN</span>
-                <span class="footer-copy">© <span class="year"></span> Nazar Naumov</span>
-                <div class="footer-links">
-                    <a href="index.html">Hjem</a>
-                    <a href="fag.html">Fag</a>
-                    <a href="prosjekter.html">Prosjekter</a>
-                    <a href="kontakt.html">Kontakt</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
